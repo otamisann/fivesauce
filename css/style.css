@@ -790,7 +790,7 @@ textarea.input {
   padding: 60px 0px;
   margin: 30px 0px;
   background-color: #E4E7ED;
-  background-image: url('https://res.cloudinary.com/otami/image/upload/v1563382211/img/fof_rzaogi.webp');
+  background-image: url('https://cdn.shopify.com/s/files/1/0071/4709/4073/files/banner2_ab3574ce-ccb6-4ae9-8ac5-0f22323d32fd_2048x.jpg?v=1563123047');
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -869,6 +869,9 @@ textarea.input {
 
 .product .product-img {
   position: relative;
+  /* object-fit: cover;
+  width: 263px;
+  height: 250px; */
 }
 
 .product .product-img>img {
@@ -1021,7 +1024,7 @@ textarea.input {
   right: 1px;
   bottom: 1px;
   padding: 15px;
-  background: #1e1f29;
+  background: #000000e3;
   text-align: center;
   -webkit-transform: translateY(0%);
   -ms-transform: translateY(0%);
@@ -1042,7 +1045,7 @@ textarea.input {
   border: 2px solid transparent;
   height: 40px;
   padding: 0 30px;
-  background-color: #b8808d;
+  background-color: #ff0037;
   color: #FFF;
   text-transform: uppercase;
   font-weight: 700;
@@ -1065,8 +1068,8 @@ textarea.input {
 
 .product .add-to-cart .add-to-cart-btn:hover {
   background-color: #262626;
-  color: #FF0037;
-  border-color: #FF0037;
+  color: rgb(245, 245, 245);
+  border-color: rgb(255, 255, 255);
   padding: 0px 30px 0px 50px;
 }
 
@@ -1954,7 +1957,7 @@ textarea.input {
 .newsletter form .input {
   width: calc(100% - 160px);
   margin-right: -4px;
-  border-radius: 40px 0px 0px 40px;
+  /* border-radius: 40px 0px 0px 40px; */
 }
 
 .newsletter form .newsletter-btn {
@@ -1964,7 +1967,7 @@ textarea.input {
   background: #FF0037;
   color: #FFF;
   border: none;
-  border-radius: 0px 40px 40px 0px;
+  /* border-radius: 0px 40px 40px 0px; */
 }
 
 .newsletter .newsletter-follow {
