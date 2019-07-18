@@ -285,7 +285,7 @@ src: local('EuroStyle Normal'), url('EuroStyle Normal.woff') format('woff');
 				<div class="col-md-4 col-xs-6">
 					<div class="shop">
 						<div class="shop-img">
-							<img src="https://res.cloudinary.com/otami/image/upload/v1563382210/img/cloth3_wq6rxq.webp" height="360px"  alt="">
+							<img src="https://cdn.shopify.com/s/files/1/0071/4709/4073/products/5SOS_HoodieBack_large.png?v=1563122011" height="360px"  alt="">
 						</div>
 						<div class="shop-body" style="font-family: 'Michroma', sans-serif;font-weight: 100;">
 							<h3>Cloting<br>Collection</h3>
@@ -694,9 +694,9 @@ src: local('EuroStyle Normal'), url('EuroStyle Normal.woff') format('woff');
 
 	<!-- preloader -->
 	<div id="loader-container">
-			<p id="loadingText">Loading</p>
-		  </div>
-			
+		<p id="loadingText">Loading</p>
+	</div>
+	
 	<!-- jQuery Plugins -->
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
@@ -707,12 +707,14 @@ src: local('EuroStyle Normal'), url('EuroStyle Normal.woff') format('woff');
 
 	<script>
 			$('.section').hide();
+			$('#navigation').hide();
 	
 			setTimeout(function () {
 				$(document).ready(function () {
 	
 					 //hide section
 					$('.section').fadeIn();
+					$('#navigation').fadeIn();
 					
 	
 					//hide pre loader
